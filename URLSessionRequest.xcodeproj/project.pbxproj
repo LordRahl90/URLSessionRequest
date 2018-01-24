@@ -12,6 +12,7 @@
 		8784E47A20175BEA003BF001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8784E47820175BEA003BF001 /* Main.storyboard */; };
 		8784E47C20175BEA003BF001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8784E47B20175BEA003BF001 /* Assets.xcassets */; };
 		8784E47F20175BEA003BF001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8784E47D20175BEA003BF001 /* LaunchScreen.storyboard */; };
+		8784E48720176BD5003BF001 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E48620176BD5003BF001 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8784E47B20175BEA003BF001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8784E47E20175BEA003BF001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8784E48020175BEA003BF001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8784E48620176BD5003BF001 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8784E47B20175BEA003BF001 /* Assets.xcassets */,
 				8784E47D20175BEA003BF001 /* LaunchScreen.storyboard */,
 				8784E48020175BEA003BF001 /* Info.plist */,
+				8784E48620176BD5003BF001 /* PostViewController.swift */,
 			);
 			path = URLSessionRequest;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8784E48720176BD5003BF001 /* PostViewController.swift in Sources */,
 				8784E47720175BEA003BF001 /* ViewController.swift in Sources */,
 				8784E47520175BEA003BF001 /* AppDelegate.swift in Sources */,
 			);
